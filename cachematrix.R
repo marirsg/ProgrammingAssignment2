@@ -16,7 +16,7 @@ makeCacheMatrix <- function(x = matrix()) {
 	setMatrix <- function(newMatrix){
 			x <<- newMatrix # update the x matrix
 			matrixInverse <<- NULL #adding a new matrix, nulls the previous inverse		
-	}#end of function setMatrix	
+	}#end of function setMatrix
 	getMatrix <- function() x
 	setInverse <- function(newInverse) matrixInverse <<- newInverse
 	getInverse <- function() matrixInverse
